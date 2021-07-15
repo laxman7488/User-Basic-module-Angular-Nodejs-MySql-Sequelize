@@ -1,0 +1,599 @@
+[2021-07-15T11:31:04.904] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:31:04.941] [ERROR] app - { SequelizeConnectionError: Host '192.168.119.1' is not allowed to connect to this MariaDB server
+    at ConnectionManager.connect (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:126:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Host '192.168.119.1' is not allowed to connect to this MariaDB server
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at ClientHandshake.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_HOST_NOT_PRIVILEGED',
+     errno: 1130,
+     sqlState: '',
+     sqlMessage:
+      'Host \'192.168.119.1\' is not allowed to connect to this MariaDB server' },
+  original:
+   { Error: Host '192.168.119.1' is not allowed to connect to this MariaDB server
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at ClientHandshake.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_HOST_NOT_PRIVILEGED',
+     errno: 1130,
+     sqlState: '',
+     sqlMessage:
+      'Host \'192.168.119.1\' is not allowed to connect to this MariaDB server' } }
+[2021-07-15T11:31:04.941] [ERROR] app - { SequelizeConnectionError: Host '192.168.119.1' is not allowed to connect to this MariaDB server
+    at ConnectionManager.connect (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\connection-manager.js:126:17)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: Host '192.168.119.1' is not allowed to connect to this MariaDB server
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at ClientHandshake.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_HOST_NOT_PRIVILEGED',
+     errno: 1130,
+     sqlState: '',
+     sqlMessage:
+      'Host \'192.168.119.1\' is not allowed to connect to this MariaDB server' },
+  original:
+   { Error: Host '192.168.119.1' is not allowed to connect to this MariaDB server
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at ClientHandshake.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_HOST_NOT_PRIVILEGED',
+     errno: 1130,
+     sqlState: '',
+     sqlMessage:
+      'Host \'192.168.119.1\' is not allowed to connect to this MariaDB server' } }
+[2021-07-15T11:35:27.961] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:35:28.057] [ERROR] app - { SequelizeDatabaseError: No database selected
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  original:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  sql: 'DROP TABLE IF EXISTS `Users`;',
+  parameters: undefined }
+[2021-07-15T11:35:28.057] [ERROR] app - { SequelizeDatabaseError: No database selected
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  original:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  sql: 'DROP TABLE IF EXISTS `Users`;',
+  parameters: undefined }
+[2021-07-15T11:37:33.187] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:37:33.256] [ERROR] app - { SequelizeDatabaseError: No database selected
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  original:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  sql: 'DROP TABLE IF EXISTS `Users`;',
+  parameters: undefined }
+[2021-07-15T11:37:33.256] [ERROR] app - { SequelizeDatabaseError: No database selected
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  original:
+   { Error: No database selected
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_NO_DB_ERROR',
+     errno: 1046,
+     sqlState: '3D000',
+     sqlMessage: 'No database selected',
+     sql: 'DROP TABLE IF EXISTS `Users`;',
+     parameters: undefined },
+  sql: 'DROP TABLE IF EXISTS `Users`;',
+  parameters: undefined }
+[2021-07-15T11:38:49.923] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:38:50.006] [ERROR] app - { SequelizeDatabaseError: Invalid default value for 'updated_time'
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329329907, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  original:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329329907, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  sql:
+   'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329329907, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  parameters: undefined }
+[2021-07-15T11:38:50.006] [ERROR] app - { SequelizeDatabaseError: Invalid default value for 'updated_time'
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329329907, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  original:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329329907, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  sql:
+   'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329329907, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  parameters: undefined }
+[2021-07-15T11:39:13.796] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:39:13.889] [ERROR] app - { SequelizeDatabaseError: Invalid default value for 'updated_time'
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329353761, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  original:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329353761, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  sql:
+   'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329353761, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  parameters: undefined }
+[2021-07-15T11:39:13.889] [ERROR] app - { SequelizeDatabaseError: Invalid default value for 'updated_time'
+    at Query.formatError (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:265:16)
+    at Query.run (D:\dev\users\node_modules\sequelize\lib\dialects\mysql\query.js:77:18)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeDatabaseError',
+  parent:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329353761, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  original:
+   { Error: Invalid default value for 'updated_time'
+       at Packet.asError (D:\dev\users\node_modules\mysql2\lib\packets\packet.js:712:17)
+       at Query.execute (D:\dev\users\node_modules\mysql2\lib\commands\command.js:28:26)
+       at Connection.handlePacket (D:\dev\users\node_modules\mysql2\lib\connection.js:425:32)
+       at PacketParser.Connection.packetParser.p [as onPacket] (D:\dev\users\node_modules\mysql2\lib\connection.js:75:12)
+       at PacketParser.executeStart (D:\dev\users\node_modules\mysql2\lib\packet_parser.js:75:16)
+       at Socket.Connection.stream.on.data (D:\dev\users\node_modules\mysql2\lib\connection.js:82:25)
+       at Socket.emit (events.js:198:13)
+       at addChunk (_stream_readable.js:288:12)
+       at readableAddChunk (_stream_readable.js:269:11)
+       at Socket.Readable.push (_stream_readable.js:224:10)
+     code: 'ER_INVALID_DEFAULT',
+     errno: 1067,
+     sqlState: '42000',
+     sqlMessage: 'Invalid default value for \'updated_time\'',
+     sql:
+      'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329353761, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+     parameters: undefined },
+  sql:
+   'CREATE TABLE IF NOT EXISTS `Users` (`id` INTEGER auto_increment , `email` VARCHAR(255) NOT NULL, `name` VARCHAR(255) NOT NULL, `username` VARCHAR(255), `email_id` VARCHAR(255) NOT NULL, `password` VARCHAR(255), `designation` ENUM(\'Admin\', \'User\') NOT NULL DEFAULT \'User\', `updated_time` DATETIME NOT NULL DEFAULT 1626329353761, PRIMARY KEY (`id`)) ENGINE=InnoDB;',
+  parameters: undefined }
+[2021-07-15T11:40:21.075] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:40:21.183] [INFO] app - Drop and re-sync db.
+[2021-07-15T11:41:07.369] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:41:07.455] [INFO] app - Drop and re-sync db.
+[2021-07-15T11:42:00.745] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:42:00.827] [INFO] app - Drop and re-sync db.
+[2021-07-15T11:47:08.217] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:47:08.301] [INFO] app - Drop and re-sync db.
+[2021-07-15T11:47:28.598] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:47:28.673] [INFO] app - Drop and re-sync db.
+[2021-07-15T11:49:40.160] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:49:40.229] [INFO] app - Drop and re-sync db.
+[2021-07-15T11:49:59.994] [INFO] app - Server is up and running on :8084
+[2021-07-15T11:50:00.115] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:05:25.721] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:05:25.795] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:21:48.084] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:21:48.193] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:23:16.004] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:23:16.077] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:23:39.730] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:23:39.804] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:25:43.959] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:25:44.034] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:27:26.275] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:27:26.343] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:27:41.023] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:27:41.098] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:27:48.150] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:27:48.224] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:28:11.120] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:28:11.190] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:28:23.832] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:28:23.900] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:28:29.976] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:28:30.054] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:29:46.222] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:29:46.313] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:33:30.453] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:33:30.568] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:34:13.246] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:34:13.324] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:34:54.172] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:34:54.258] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:35:20.260] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:35:20.341] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:36:07.141] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:36:07.216] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:36:41.116] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:36:41.203] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:37:14.752] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:37:14.836] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:37:59.508] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:37:59.588] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:38:14.197] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:38:14.279] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:40:06.301] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:40:06.397] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:41:32.292] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:41:32.374] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:41:38.656] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:41:38.729] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:42:18.901] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:42:18.970] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:43:08.725] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:43:08.803] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:44:14.919] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:44:14.987] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:45:13.481] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:45:13.550] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:46:02.474] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:46:02.557] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:46:22.887] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:46:22.963] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:46:44.248] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:46:44.335] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:46:56.153] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:46:56.218] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:47:12.283] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:47:12.367] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:47:22.365] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:47:22.429] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:47:41.026] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:47:41.120] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:48:32.602] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:48:32.682] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:48:59.283] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:48:59.359] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:49:28.388] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:49:28.480] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:49:41.965] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:49:42.092] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:52:01.634] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:52:01.698] [INFO] app - Drop and re-sync db.
+[2021-07-15T12:53:30.680] [INFO] app - Server is up and running on :8084
+[2021-07-15T12:53:30.756] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:33:29.014] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:33:29.102] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:34:03.361] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:34:03.427] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:34:09.485] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:34:09.557] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:34:31.230] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:34:31.317] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:35:53.095] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:35:53.182] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:36:30.049] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:36:30.229] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:36:49.725] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:36:49.797] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:36:52.698] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:36:52.781] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:39:02.842] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:39:02.914] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:40:09.616] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:40:09.731] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:40:25.406] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:40:25.473] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:40:51.806] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:40:51.872] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:42:12.775] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:42:12.847] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:42:23.193] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:42:23.265] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:43:15.797] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:43:15.874] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:43:36.730] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:43:36.801] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:46:38.241] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:46:38.346] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:46:51.798] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:46:51.866] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:47:18.016] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:47:18.080] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:48:55.472] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:48:55.544] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:49:09.354] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:49:09.429] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:49:24.596] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:49:24.668] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:49:47.899] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:49:48.019] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:50:23.344] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:50:23.457] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:50:36.712] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:50:36.774] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:50:54.035] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:50:54.115] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:51:06.906] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:51:06.989] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:51:41.296] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:51:41.377] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:52:14.000] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:52:14.072] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:52:20.734] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:52:20.824] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:52:29.040] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:52:29.114] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:54:47.476] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:54:47.558] [INFO] app - Drop and re-sync db.
+[2021-07-15T13:55:03.962] [INFO] app - Server is up and running on :8084
+[2021-07-15T13:55:04.029] [INFO] app - Drop and re-sync db.
