@@ -1,8 +1,0 @@
-﻿
-<h3>All users: <button class="btn btn-primary" routerLink="/create-user">Add User</button></h3>
-<ul>
-    <li *ngFor="let user of users">
-        {{user.name}} | {{user.email}} | {{user.role}}
-        - <a (click)="deleteUser(user.id)" class="text-danger">Delete</a>
-    </li>
-</ul>
