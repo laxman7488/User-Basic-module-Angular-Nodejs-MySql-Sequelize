@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-const oracle = require('../../utils/v1.0.0/sqlHelper/oracle/select');
 
 const auth=async(req,res,next)=>{
 
